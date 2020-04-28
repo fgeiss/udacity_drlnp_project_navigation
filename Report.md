@@ -15,6 +15,7 @@ We utilized an agent with a fully connected neural network with two hidden layer
 
 ![](neural_network_layout.png)
 
+The weights for the trained network are stored in [checkpoint_ddqn.pth](checkpoint_ddqn.pth)
 
 ### Hyperparameters
 The following hyperparameters were used throughout.
