@@ -33,4 +33,4 @@ Follow the instructions in `Navigation.ipynb` to get train and evaluate the agen
 
 ## Results
 
-Results are documented in [Link text](Report.md)
+Results are documented in the [project report](Report.md)
