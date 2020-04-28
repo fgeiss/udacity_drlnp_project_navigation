@@ -8,7 +8,7 @@ To evaluate the performance of the agents we performed a baseline test at the be
 ![](distribution_random_agent.png)
 
 ## Learning Algorithm
-We utilized an agent with a fully connected neural network with two hidden layers of size 128 and 64, respectively. Each layer is followed by a relu-function. The full network in detail is vizualized below with the help of the hiddenlayer package:
+We utilized an agent with a fully connected neural network with two hidden layers of size 128 and 64, respectively. All intermediate layers are followed by a relu-function. The full network in detail is vizualized below with the help of the hiddenlayer package:
 
 ![](neural_network_layout.png)
 
