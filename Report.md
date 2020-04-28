@@ -33,7 +33,8 @@ The following hyperparameters were used throughout.
 
 ### DDQN
 
-The learning with DDQN achieved the goal of more than 13 points in average per 100 episodes after 495 training episodes and stabilized with an average score of approx. 15.5
+The learning with DDQN achieved the goal of more than 13 points in average per 100 episodes after 495 training episodes and stabilized with an average score of approx. 15.5.
+
 ![](learning_ddqn.png)
 
 Evaluation of the trained agent against N=100 episodes yields an average of 13.76 with a standard deviation of 5.4. The distribution of this experiment is shown below. 
