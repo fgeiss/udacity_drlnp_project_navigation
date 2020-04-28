@@ -28,7 +28,7 @@ The space has 37 dimensions and contains the agent's velocity, along with ray-ba
 
 ## Instructions
 
-Follow the instructions in `Navigation.ipynb` to get train and evaluate the agent.
+Follow the instructions in `Navigation.ipynb` to train and evaluate the agent.
 
 
 ## Results
