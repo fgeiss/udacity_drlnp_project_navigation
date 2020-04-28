@@ -1,13 +1,16 @@
 # Report 
 
-## Structure of the used network
-
 ## Baseline Evaluation
 To evaluate the performance of the agents we performed a baseline test at the beginning of the project and run the environment N=100 times with random uniformly distributed actions. Below diagram shows the distribution with its mean and standard deviation from this experiment. Assuming that yellow bananas with reward +1 and blue bananas with reward -1 are evenly distributed in the environment it is reasonable that average score for such an agent is approximately 0.
 
 ![](distribution_random_agent.png)
 
 ## Learning Algorithm
+
+### DDQN
+The agent is trained with an DDQN algorithm. Optionally, DQN can also be enabled by setting the corresponding flag in the initialization function for the agent.
+
+### Neural Network Architecture
 We utilized an agent with a fully connected neural network with two hidden layers of size 128 and 64, respectively. All intermediate layers are followed by a relu-function. The full network in detail is vizualized below with the help of the hiddenlayer package:
 
 ![](neural_network_layout.png)
